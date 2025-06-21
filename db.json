@@ -1,0 +1,697 @@
+{
+  "patients": [
+    {
+      "nom": "RANDRIAMANANTSOA",
+      "prenom": "Marie Claire",
+      "genre": "Féminin",
+      "profession": "Médecin",
+      "dateNaissance": "10-12-1978",
+      "adresse": "Mahajanga",
+      "telephone": "0341234567",
+      "email": "marie.claire.randria@example.com",
+      "id": "afff"
+    },
+    {
+      "nom": "RASOLOFOMANANA",
+      "prenom": "Paul",
+      "genre": "Masculin",
+      "profession": "Professeur",
+      "dateNaissance": "05-04-1960",
+      "adresse": "Fianarantsoa",
+      "telephone": "0339876543",
+      "email": "paul.rasolofomanana@example.com",
+      "id": "d9ec"
+    },
+    {
+      "nom": "RAZAFIMANDIMBY",
+      "prenom": "Nirina",
+      "profession": "Comptable",
+      "adresse": "Toamasina",
+      "email": "nirina.razafi@example.com",
+      "telephone": "0325678901",
+      "dateNaissance": "10-12-1983",
+      "genre": "Féminin",
+      "id": "9a90"
+    },
+    {
+      "nom": "ANDRIANINA",
+      "prenom": "Hery",
+      "genre": "Masculin",
+      "profession": "Technicien",
+      "dateNaissance": "1995-02-01",
+      "adresse": "Antsirabe",
+      "telephone": "0348765432",
+      "email": "hery.andrianina@example.com",
+      "id": "dc3c"
+    },
+    {
+      "id": "9576",
+      "nom": "RAVELOMANANA",
+      "prenom": "Aime Delphin",
+      "profession": "Etudiants",
+      "adresse": "Igaga,Fianarantrsoia",
+      "email": "Ravelomanana@gmail.com",
+      "telephone": "0344375288",
+      "dateNaissance": "2002-10-29",
+      "genre": "Maxulin"
+    },
+    {
+      "id": "3d2e",
+      "nom": "ANDRIANADRASANA",
+      "prenom": "Maminiaina Fabien Flavio",
+      "profession": "Etudiants",
+      "adresse": "Igaga,Fianarantrsoia",
+      "email": "fabien4240flavo@gmail.com",
+      "telephone": "0342879174",
+      "dateNaissance": "2002-10-25",
+      "genre": "Maxulin"
+    }
+  ],
+  "consultation": [
+    {
+      "id": "01a3",
+      "refereAutoRefere": "Auto-référé",
+      "motif": [
+        "Hémoptysie"
+      ],
+      "interneExterne": "Interne",
+      "historique": "taille",
+      "antecedentsPersonels": {
+        "medicaux": "taille",
+        "chirurgicaux": "taille",
+        "gynecoObstetriques": "taille",
+        "modeDeVie": "taille",
+        "habitudesToxiques": "",
+        "allergies": "",
+        "autre": "",
+        "Autre": "taille"
+      },
+      "antecedentsFamiliaux": {
+        "asme": "",
+        "diabete": "",
+        "cancer": "",
+        "tension": "",
+        "cardiopatie": "",
+        "autre": ""
+      },
+      "dateConsultation": "2024-10-11",
+      "signeGeneraux": {
+        "tensionArtérielle": "sdsdsf",
+        "frequenceCardiaque": "",
+        "fréquenceRespiratoire": "dsfds",
+        "temperature": "",
+        "spo2": "",
+        "poids": 0,
+        "taille": 0,
+        "autre": ""
+      },
+      "signePhysique": "qsdqs",
+      "idPatient": "3d2e"
+    },
+    {
+      "id": "7237",
+      "refereAutoRefere": "Auto-référé",
+      "motif": [
+        "Dyspnée",
+        "Toux",
+        "Douleur thoracique",
+        "Hémoptysie",
+        "Altération de l’état général",
+        "mal tete"
+      ],
+      "interneExterne": "Externe",
+      "historique": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id similique autem dicta maxime nemo nostrum saepe? Iusto mollitia ipsam tempore illo tenetur quibusdam sed repudiandae, error, hic similique asperiores sit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Id similique autem dicta maxime nemo nostrum saepe? Iusto mollitia ipsam tempore illo tenetur quibusdam sed repudiandae, error, hic similique asperiores sit!",
+      "antecedentsPersonels": {
+        "medicaux": "1250 tetre",
+        "chirurgicaux": "depuis naissance",
+        "gynecoObstetriques": "dirigie",
+        "modeDeVie": "faciliter",
+        "habitudesToxiques": "mal tres mal",
+        "allergies": "putain",
+        "autre": "",
+        "Autre": "sifilice"
+      },
+      "antecedentsFamiliaux": {
+        "asme": "a la tete",
+        "diabete": "depuis le race",
+        "cancer": "sur cervaux",
+        "tension": "50",
+        "cardiopatie": "dfg",
+        "autre": "trop"
+      },
+      "dateConsultation": "2024-10-16",
+      "signeGeneraux": {
+        "tensionArtérielle": "150",
+        "frequenceCardiaque": "145",
+        "fréquenceRespiratoire": "12",
+        "temperature": "35°C",
+        "spo2": "89",
+        "poids": "70000",
+        "taille": "5",
+        "autre": "malade"
+      },
+      "signePhysique": "teta",
+      "idPatient": "9576"
+    },
+    {
+      "idPatient": "d9ec",
+      "id": "8def",
+      "refereAutoRefere": "Auto-référé",
+      "motif": [
+        "Toux",
+        "Hémoptysie"
+      ],
+      "interneExterne": "Externe",
+      "historique": "vide",
+      "antecedentsPersonels": {
+        "medicaux": "",
+        "chirurgicaux": "2 fois",
+        "gynecoObstetriques": "",
+        "modeDeVie": "",
+        "habitudesToxiques": "",
+        "allergies": "",
+        "autre": ""
+      },
+      "antecedentsFamiliaux": {
+        "asme": "",
+        "diabete": "",
+        "cancer": "",
+        "tension": "15",
+        "cardiopatie": "",
+        "autre": ""
+      },
+      "dateConsultation": "2024-10-19",
+      "signeGeneraux": {
+        "tensionArtérielle": "",
+        "frequenceCardiaque": "",
+        "fréquenceRespiratoire": "",
+        "temperature": "",
+        "spo2": "",
+        "poids": 0,
+        "taille": 0,
+        "autre": ""
+      },
+      "signePhysique": "fdgd"
+    },
+    {
+      "id": "e93c",
+      "refereAutoRefere": "Référé",
+      "motif": [
+        "Toux",
+        "Altération de l’état général"
+      ],
+      "interneExterne": "Interne",
+      "historique": "vfdfsd",
+      "antecedentsPersonels": {
+        "medicaux": "",
+        "chirurgicaux": "fsdf",
+        "gynecoObstetriques": "",
+        "modeDeVie": "sdfsd",
+        "habitudesToxiques": "",
+        "allergies": "fsdfsd",
+        "autre": ""
+      },
+      "antecedentsFamiliaux": {
+        "asme": "",
+        "diabete": "",
+        "cancer": "",
+        "tension": "",
+        "cardiopatie": "",
+        "autre": "",
+        "Diabete": "fsdfsd",
+        "Tension": "sdfsdfsd"
+      },
+      "dateConsultation": "2024-11-21",
+      "signeGeneraux": {
+        "tensionArtérielle": "",
+        "frequenceCardiaque": "",
+        "fréquenceRespiratoire": "",
+        "temperature": "",
+        "spo2": "",
+        "poids": 0,
+        "taille": "0",
+        "autre": ""
+      },
+      "signePhysique": "fdsfdsfsd",
+      "idPatient": "afff"
+    }
+  ],
+  "examens": [
+    {
+      "id": "8d2d",
+      "hematologie": {
+        "nft": "",
+        "groupageAbo": "",
+        "rhesus": "qsdqs"
+      },
+      "immunologie": {
+        "vih": "",
+        "hepatiteVirale": "qsdqs",
+        "aspergillaire": "",
+        "bilharzienne": "",
+        "toxoplasmose": "qsdqs"
+      },
+      "cypotologie_anatomoPathologie": {
+        "liquideDePonction": "",
+        "biopsie": ""
+      },
+      "bioChimie": {
+        "calcemieAlbumine": "",
+        "ionogramme": "",
+        "glycemieHbA1C": "qsdqs",
+        "crp": "qsdqs",
+        "vsh": "",
+        "procalcitonine": "",
+        "creatinine": "",
+        "uree": "",
+        "asat_alat": "",
+        "ggt": "qsdqs",
+        "pal": "",
+        "bilirubine": "",
+        "Autre": "sqdqs"
+      },
+      "liquidePonction": {
+        "pleural": "",
+        "ascite": "qsdsq",
+        "lcr": "",
+        "articulaire": "qsdqs"
+      },
+      "bacteriologie": {
+        "hemoculture": "qsdqs",
+        "liquideDePonction": ""
+      },
+      "crachats": {
+        "ecbc": "sqdsq",
+        "genexpertMtb_Rif": "",
+        "mycologie": "",
+        "culture": "",
+        "Autre": "qsd"
+      },
+      "urines": {
+        "bu": "",
+        "ecbu": "qsdqs",
+        "genexpert": "qsdqs",
+        "Autre": "dqsdqs"
+      },
+      "lba": {
+        "ecbc": "",
+        "genexpert": ""
+      },
+      "radiographies": {
+        "hanche": "",
+        "asp": "",
+        "main": "",
+        "pieds": "",
+        "genoux": "",
+        "jambe": "",
+        "fémur": ""
+      },
+      "radiographieThorax": {
+        "face": "",
+        "profil": ""
+      },
+      "radiographieRachis": {
+        "cervical": "",
+        "dorsal": "",
+        "lombaire": "",
+        "sacrum": ""
+      },
+      "scanner": {
+        "thorax": "",
+        "thoracoAbdominoPelvien": "",
+        "cerebral": "",
+        "angioscanner": "",
+        "rachis": ""
+      },
+      "echographie": {
+        "plevre": "",
+        "abdomen": "",
+        "Abdomino_pelvien": "",
+        "renale": "",
+        "prostate": "",
+        "voieUrinaire": "",
+        "cardiaque": "",
+        "dopplerVeineux": "",
+        "dopplerArtériel": "",
+        "tissuMous": "",
+        "seins": ""
+      },
+      "idPatient": "9576",
+      "idConsultation": "7237"
+    },
+    {
+      "id": "39a1",
+      "hematologie": {
+        "nft": "qsdsq",
+        "groupageAbo": "",
+        "rhesus": "qsdqs",
+        "Autre": "qsdqs"
+      },
+      "immunologie": {
+        "vih": "",
+        "hepatiteVirale": "dqsd",
+        "aspergillaire": "",
+        "bilharzienne": "qsdq",
+        "toxoplasmose": "",
+        "Autre": "qsdqs"
+      },
+      "cypotologie_anatomoPathologie": {
+        "liquideDePonction": "",
+        "biopsie": ""
+      },
+      "bioChimie": {
+        "calcemieAlbumine": "sqdqs",
+        "ionogramme": "",
+        "glycemieHbA1C": "qsdqs",
+        "crp": "",
+        "vsh": "",
+        "procalcitonine": "",
+        "creatinine": "",
+        "uree": "dsqd",
+        "asat_alat": "",
+        "ggt": "qsdqs",
+        "pal": "",
+        "bilirubine": "",
+        "Autre": "sqd"
+      },
+      "liquidePonction": {
+        "pleural": "qsd",
+        "ascite": "",
+        "lcr": "",
+        "articulaire": "qsdqs"
+      },
+      "bacteriologie": {
+        "hemoculture": "qsdqs",
+        "liquideDePonction": "",
+        "Autre": "qsdqs"
+      },
+      "crachats": {
+        "ecbc": "",
+        "genexpertMtb_Rif": "qsdqs",
+        "mycologie": "",
+        "culture": "qsdqs"
+      },
+      "urines": {
+        "bu": "",
+        "ecbu": "qsd",
+        "genexpert": "",
+        "ecbc": "qsdqs"
+      },
+      "lba": {
+        "ecbc": "",
+        "genexpert": ""
+      },
+      "radiographies": {
+        "hanche": "",
+        "asp": "",
+        "main": "",
+        "pieds": "",
+        "genoux": "",
+        "jambe": "",
+        "fémur": ""
+      },
+      "radiographieThorax": {
+        "face": "",
+        "profil": ""
+      },
+      "radiographieRachis": {
+        "cervical": "",
+        "dorsal": "",
+        "lombaire": "",
+        "sacrum": ""
+      },
+      "scanner": {
+        "thorax": "",
+        "thoracoAbdominoPelvien": "",
+        "cerebral": "",
+        "angioscanner": "",
+        "rachis": ""
+      },
+      "echographie": {
+        "plevre": "",
+        "abdomen": "",
+        "Abdomino_pelvien": "",
+        "renale": "",
+        "prostate": "",
+        "voieUrinaire": "",
+        "cardiaque": "",
+        "dopplerVeineux": "",
+        "dopplerArtériel": "",
+        "tissuMous": "",
+        "seins": ""
+      },
+      "idPatient": "dc3c",
+      "idConsultation": "2d09"
+    },
+    {
+      "id": "2244",
+      "hematologie": {
+        "nft": "",
+        "groupageAbo": "qsdqsdqs",
+        "rhesus": "qsdqsd",
+        "Autre": "qsdqs"
+      },
+      "immunologie": {
+        "vih": "qsdqs",
+        "hepatiteVirale": "",
+        "aspergillaire": "qsdqs",
+        "bilharzienne": "sqdsq",
+        "toxoplasmose": ""
+      },
+      "cypotologie_anatomoPathologie": {
+        "liquideDePonction": "",
+        "biopsie": ""
+      },
+      "bioChimie": {
+        "calcemieAlbumine": "",
+        "ionogramme": "qsdqs",
+        "glycemieHbA1C": "",
+        "crp": "sqdqs",
+        "vsh": "",
+        "procalcitonine": "",
+        "creatinine": "",
+        "uree": "",
+        "asat_alat": "",
+        "ggt": "qsdqsd",
+        "pal": "",
+        "bilirubine": ""
+      },
+      "liquidePonction": {
+        "pleural": "",
+        "ascite": "sqdqs",
+        "lcr": "qsdqs",
+        "articulaire": ""
+      },
+      "bacteriologie": {
+        "hemoculture": "",
+        "liquideDePonction": "qsdqs"
+      },
+      "crachats": {
+        "ecbc": "qsdqs",
+        "genexpertMtb_Rif": "",
+        "mycologie": "",
+        "culture": "qsdqsd"
+      },
+      "urines": {
+        "bu": "sqdqs",
+        "ecbu": "",
+        "genexpert": "qsdqs",
+        "ecbc": "qsdqs"
+      },
+      "lba": {
+        "ecbc": "",
+        "genexpert": ""
+      },
+      "radiographies": {
+        "hanche": "",
+        "asp": "",
+        "main": "",
+        "pieds": "",
+        "genoux": "",
+        "jambe": "",
+        "fémur": ""
+      },
+      "radiographieThorax": {
+        "face": "",
+        "profil": ""
+      },
+      "radiographieRachis": {
+        "cervical": "",
+        "dorsal": "",
+        "lombaire": "",
+        "sacrum": ""
+      },
+      "scanner": {
+        "thorax": "",
+        "thoracoAbdominoPelvien": "",
+        "cerebral": "",
+        "angioscanner": "",
+        "rachis": ""
+      },
+      "echographie": {
+        "plevre": "",
+        "abdomen": "",
+        "Abdomino_pelvien": "",
+        "renale": "",
+        "prostate": "",
+        "voieUrinaire": "",
+        "cardiaque": "",
+        "dopplerVeineux": "",
+        "dopplerArtériel": "",
+        "tissuMous": "",
+        "seins": ""
+      },
+      "idPatient": "3d2e",
+      "idConsultation": "01a3"
+    },
+    {
+      "id": "195d",
+      "hematologie": {
+        "nft": "",
+        "groupageAbo": "",
+        "rhesus": "dqsdqsd",
+        "Autre": "dqsdqsd"
+      },
+      "immunologie": {
+        "vih": "",
+        "hepatiteVirale": "qsdqsd",
+        "aspergillaire": "qsdqsdqs",
+        "bilharzienne": "qsdqs",
+        "toxoplasmose": ""
+      },
+      "cypotologie_anatomoPathologie": {
+        "liquideDePonction": "",
+        "biopsie": ""
+      },
+      "bioChimie": {
+        "calcemieAlbumine": "",
+        "ionogramme": "",
+        "glycemieHbA1C": "",
+        "crp": "qsdqs",
+        "vsh": "",
+        "procalcitonine": "",
+        "creatinine": "qsdqs",
+        "uree": "",
+        "asat_alat": "qsdqs",
+        "ggt": "",
+        "pal": "",
+        "bilirubine": ""
+      },
+      "liquidePonction": {
+        "pleural": "qsdqs",
+        "ascite": "qsdqs",
+        "lcr": "",
+        "articulaire": ""
+      },
+      "bacteriologie": {
+        "hemoculture": "",
+        "liquideDePonction": "qsdqs"
+      },
+      "crachats": {
+        "ecbc": "",
+        "genexpertMtb_Rif": "sqdqs",
+        "mycologie": "",
+        "culture": "",
+        "Autre": "qsdqs"
+      },
+      "urines": {
+        "bu": "",
+        "ecbu": "",
+        "genexpert": "qsdqsqsdqs"
+      },
+      "lba": {
+        "ecbc": "",
+        "genexpert": ""
+      },
+      "radiographies": {
+        "hanche": "",
+        "asp": "",
+        "main": "",
+        "pieds": "",
+        "genoux": "",
+        "jambe": "",
+        "fémur": ""
+      },
+      "radiographieThorax": {
+        "face": "",
+        "profil": ""
+      },
+      "radiographieRachis": {
+        "cervical": "",
+        "dorsal": "",
+        "lombaire": "",
+        "sacrum": ""
+      },
+      "scanner": {
+        "thorax": "",
+        "thoracoAbdominoPelvien": "",
+        "cerebral": "",
+        "angioscanner": "",
+        "rachis": ""
+      },
+      "echographie": {
+        "plevre": "",
+        "abdomen": "",
+        "Abdomino_pelvien": "",
+        "renale": "",
+        "prostate": "",
+        "voieUrinaire": "",
+        "cardiaque": "",
+        "dopplerVeineux": "",
+        "dopplerArtériel": "",
+        "tissuMous": "",
+        "seins": ""
+      },
+      "idPatient": "d9ec",
+      "idConsultation": "8def"
+    }
+  ],
+  "diagnostic": [
+    {
+      "id": "2812",
+      "diagnostic": [
+        "Asthme"
+      ],
+      "idExamen": "195d",
+      "idConsultation": "8def",
+      "idPatient": "d9ec"
+    },
+    {
+      "id": "bce5",
+      "diagnostic": [
+        "BPCO",
+        "Asthme",
+        "Pneumopathie"
+      ],
+      "idExamen": "39a1",
+      "idConsultation": "2d09",
+      "idPatient": "dc3c"
+    },
+    {
+      "id": "66c7",
+      "diagnostic": [
+        "BPCO",
+        "Asthme"
+      ],
+      "idExamen": "8d2d",
+      "idConsultation": "7237",
+      "idPatient": "9576"
+    }
+  ],
+  "traitement": [
+    {
+      "id": "e3a0",
+      "traitement": [
+        "Antihistaminique",
+        "Oxygène",
+        "Vitaminothérapie"
+      ],
+      "evaluation": "dfgdf",
+      "sortie": [
+        "SORTIE NORMALE",
+        "EVADE"
+      ],
+      "idExamen": ":id"
+    }
+  ]
+}
