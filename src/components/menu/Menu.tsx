@@ -3,7 +3,6 @@ import { MdOutlineMan2 } from "react-icons/md";
 import { FaUserDoctor } from "react-icons/fa6";
 import { MdSpaceDashboard } from "react-icons/md";
 import Logotechnova  from "../../assets/TechnovaLogo.png";
-import ImageActive  from "../../assets/active.png";
 import StyleMenu from "./StyleMenu";
 
 export default function Menu() {
