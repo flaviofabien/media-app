@@ -7,9 +7,6 @@ function UserTable() {
 
   return (
     <div className="overflow-x-auto">
-      <div className="py-4 px-6 text-gray-600 text-sm">
-        Showing 7 of 56 Total Users
-      </div>
       <table className="min-w-full divide-y divide-gray-200">
         <thead className="bg-gray-50">
           <tr>

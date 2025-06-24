@@ -29,8 +29,8 @@ export default function Menu() {
 ]
   return (
     <>
-      <div className="bg-color-base h-screen">
-        <div className="max-w-60">
+      <div className="bg-color-base h-screen  sticky left-0 top-0">
+        <div className="w-60">
           <div className="py-8 p-4">
             <img className="object-cover" src={Logotechnova} alt="Logotechnova" />
           </div>
