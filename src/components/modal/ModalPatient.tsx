@@ -1,4 +1,3 @@
-
 import TitlePrimary from "../Ui/Contents/TitlePrimary"
 import { Patient } from "../typescript/schema"
 type Props = {

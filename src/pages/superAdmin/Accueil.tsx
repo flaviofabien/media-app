@@ -4,7 +4,6 @@ export default function Accueil() {
   return (
     <div className='lg:flex lg:flex-row text-'>
       <Menu />
-
     </div>    
   )
 }
