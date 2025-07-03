@@ -6,7 +6,7 @@ type Props = {
     error? : string;
     label : string,
     data : string[],
-    none : string
+    none ?: string
 }
 export default function InputCheckBox({ label,register,error,data,none}: Props) {
     const [showInput, setShowInput] = useState(false);
@@ -19,14 +19,14 @@ export default function InputCheckBox({ label,register,error,data,none}: Props) 
 
    
   return (
-    <div className='w-full   p-1 flex flex-col'>
-            <label className='font-semibold p-1'> {label} : </label>
+    <div className='w-full  flex flex-col'>
+            <label className=' p-1'> {label} : </label>
             <div className={`${error ? "":"mb-4" } `}>
                     {
                         data?.map((option) => (
                             <>
                             <div key={option} className='inline-block mr-4 '>
-                                <label className=' p-1' htmlFor={`${option}`}> {option} : </label> 
+                                <label className=' font-light' htmlFor={`${option}`}> {option} : </label> 
                                 <input id={`${label}`} {...register}  type='checkbox' className='h-4 w-6' value={option}   /> 
                             </div>
                             </>

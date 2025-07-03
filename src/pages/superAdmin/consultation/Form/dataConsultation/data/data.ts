@@ -1,0 +1,5 @@
+export const dataAntecedant = ["Médicaux", "Chirurgicaux", "Gynéco-obstétriques", "Mode de vie", "Habitudes toxiques", "Allergies","Autre"]
+export const dataAntecedantValue = ["medicaux", "chirurgicaux", "gynecoObstetriques", "modeDeVie", "habitudesToxiques", "allergies","autre"]
+export const dataFamilieux = ["Asthme", "Diabete", "Cancer", "Tension", "Cardiopatie","Autre"]
+export const dataSigneGeneraux = ["Tension artérielle","Fréquence cardiaque","Fréquence respiratoire","Température","SPO2","Poids", "Taille","Autre"]
+export const dataSigneGenerauxValue = ["tensionArtérielle","frequenceCardiaque","fréquenceRespiratoire","temperature","spo2","poids", "taille","autre"]

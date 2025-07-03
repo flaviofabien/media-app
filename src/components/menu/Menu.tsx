@@ -16,15 +16,15 @@ export default function Menu() {
     },
     {
         key : 2,
-        path : "/patient",
-        label : "patient",
-        icons : <MdOutlineMan2 size={20} className="mx-2 inline-block" />
+        path : "/consultation",
+        label : "Consultation",
+        icons : <FaUserDoctor size={20} className="mx-2 inline-block" />
     },
     {
         key : 3,
-        path : "/consultation",
-        label : "Examen Clinique",
-        icons : <FaUserDoctor size={20} className="mx-2 inline-block" />
+        path : "/user",
+        label : "User",
+        icons : <MdOutlineMan2 size={20} className="mx-2 inline-block" />
     },
 ]
   return (

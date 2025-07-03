@@ -1,0 +1,33 @@
+export const hematologie = ["NFS","GROUPAGE ABO","RHESUS","Autre"]
+export const hematologieValue = ["nft","groupageAbo","rhesus","Autre"]
+export const immunologie = ["VIH","Hépatite virale","Aspergillaire","Bilharzienne","Toxoplasmose","Autre"]
+export const immunologieValue = ["vih","hepatiteVirale","aspergillaire","bilharzienne","toxoplasmose","Autre"]
+export const cypotologie_anatomoPathologie = ["Liquide de ponction","Biopsie","Autre"]
+export const cypotologie_anatomoPathologieValue = ["liquideDePonction","biopsie","Autre"]
+
+export const bioChimie = ["Calcémie, Albumine","Ionogramme","Glycémie, HbA1C","CRP","VSH","Procalcitonine","Créatinine","Urée","ASAT/ALAT","GGT","PAL","Bilirubine","Autre"]
+export const bioChimieValue = ["calcemieAlbumine","ionogramme","glycemieHbA1C","crp","vsh","procalcitonine","creatinine","uree","asat_alat","ggt","pal","bilirubine","Autre"]
+export const liquidePonction = ["Pleural","Ascite","LCR","Articulaire","Autre"] 
+export const liquidePonctionValue = ["pleural","ascite","lcr","articulaire","Autre"]
+
+export const bacteriologie = ["Hémoculture","Liquide de ponction","Autre"]
+export const bacteriologieValue = ["hemoculture","liquideDePonction","Autre"]
+export const crachats = ["ECBC","Genexpert mtb/RIF","Mycologie","Culture","Autre"]
+export const crachatsValue = ["ecbc","genexpertMtb_Rif","mycologie","culture","Autre"]
+export const urines = ["BU","ECBU","genexpert","Autre"]
+export const urinesValue = ["bu","ecbu","genexpert","Autre"]
+export const lba = ["ECBC","genexpert","Autre"]
+export const lbaValue = ["ecbc","genexpert","Autre"]
+/**/
+export const radiographies = ["Hanche","ASP","main","pieds","genoux","jambe","fémur","Autre"]
+export const radiographiesValue = ["hanche","asp","main","pieds","genoux","jambe","fémur","Autre"]
+export const radiographieThorax = ["Face","Profil","Autre"]
+export const radiographieThoraxValue = ["face","profil","Autre"]
+export const radiographieRachis = ["cervical","dorsal","lombaire","sacrum","Autre"]
+export const radiographieRachisValue = ["cervical","dorsal","lombaire","sacrum","Autre"]
+
+export const scanner = ["THORAX","THORACO-ABDO.....","CEREBRAL","ANGIOSCANNER","RACHIS","Autre"]
+export const scannerValue = ["thorax","thoracoAbdominoPelvien","cerebral","angioscanner","rachis","Autre"]
+/* */
+export const echographie = ["Plèvre","Abdomen","Abdomino-pelvien","Rénale","Prostate","voie urinaire","Cardiaque","Doppler veineux","Doppler artériel","Tissu mous","Seins","Autre"]
+export const echographieValue = ["plevre","abdomen","Abdomino_pelvien","renale","prostate","voieUrinaire","cardiaque","dopplerVeineux","dopplerArtériel","tissuMous","seins","Autre"]

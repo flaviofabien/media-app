@@ -23,10 +23,10 @@ export default function ContentsMultipleData({label,data}: Props) {
   
     if(Show.length !== 0) {
         return (
-            <div className={`bg-white p-4 rounded-lg w-full  xl:mt-0 `}>
+            <div className={``}>
                 <div>
-                        <h1 className=' text-gray-600 text-start'> {label} </h1>
-                        <div>
+                        <h1 className='  text-start underline font-semibold '> {label} : </h1>
+                        <div className="">
                             {
                                 SigneGenerauxKey.filter((i) => {
                                     if(typeof(data[i]) === "number" && data[i] > 0 ){
@@ -37,7 +37,7 @@ export default function ContentsMultipleData({label,data}: Props) {
                                     }
                                 } ).map((items : string) => {
                                     return(
-                                        <span key={items} className='block text-start pl-4 font-semibold text-gray-600 '> {items} : {data[items]} </span>
+                                        <div key={items} className='text-start text-sm   '>  <span className="text-black">{items}</span> : {data[items]} </div>
                                     )
                                 } )
                             }
@@ -47,7 +47,7 @@ export default function ContentsMultipleData({label,data}: Props) {
         )
     }
     else{
-        return null
+        return null;
     }
   
 }
